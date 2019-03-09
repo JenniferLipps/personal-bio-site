@@ -1,4 +1,27 @@
 body {
-    background-color: antiquewhite;
-    color: darkslategrey;
+  background-color: rgb(140, 93, 151);
+}
+
+#projectsPage {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid darkslategray;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+}
+
+h2 {
+    font-style: italic;
 }
