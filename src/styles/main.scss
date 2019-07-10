@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 body {
   background-color: rgb(140, 93, 151);
 }
@@ -11,7 +13,7 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
+  // -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
