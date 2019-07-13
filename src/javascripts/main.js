@@ -1,8 +1,9 @@
 import 'bootstrap';
-import projects from './components/cards';
+import '../styles/main.scss';
+import projects from './components/cards/cards';
 
 const init = () => {
-  projects.createProjectCards();
+  projects.displayProjects();
 };
 
 init();

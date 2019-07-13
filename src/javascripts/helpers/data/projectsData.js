@@ -4,14 +4,15 @@ import firebaseConfig from '../apiKeys.json';
 const baseUrl = firebaseConfig.firebaseConfig.databaseURL;
 
 const getProjectsData = () => new Promise((resolve, reject) => {
-  axios.get(`${baseUrl}/projectsData.json`)
-    .then((res) => {
-      const projects = [];
-      Object.keys(res.data).forEach((fbKey) => {
-        res.data[fbKey].id = fbKey;
-        projects.push(res.data[fbKey]);
+  axios.get(`${baseUrl}/projects.json`)
+    .then((results) => {
+      const projectResults = results.data;
+      const projectArray = [];
+      Object.keys(projectResults).forEach((fbKey) => {
+        projectResults[fbKey].id = fbKey;
+        projectArray.push(projectResults[fbKey]);
       });
-      resolve(projects);
+      resolve(projectArray);
     })
     .catch(err => reject(err));
 });

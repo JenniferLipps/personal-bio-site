@@ -1,8 +1,8 @@
 import 'bootstrap';
-import util from '../helpers/util';
-import projects from '../helpers/data/projectsData';
+import util from '../../helpers/util';
+import projectsInfo from '../../helpers/data/projectsData';
 
-const createProjectCards = () => {
+const createProjectCards = (projects) => {
   let domString = '';
   projects.forEach((project) => {
     domString += '<div class="card">';
@@ -18,7 +18,7 @@ const createProjectCards = () => {
 };
 
 const displayProjects = () => {
-  projects.getProjectsData()
+  projectsInfo.getProjectsData()
     .then((projects) => {
       createProjectCards(projects);
     })
