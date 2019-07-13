@@ -1,25 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
+@import './_colors';
+
+html, body {
+  height: 100%;
+}
 
 body {
-  background-color: rgb(140, 93, 151);
+  background-color: $background;
 }
 
-#projectsPage {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  // -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+.page-container {
+  position: relative;
+  min-height: 100%;
 }
 
-.card {
-  border: 2px solid darkslategray;
-  width: 30%;
-  margin: 1%;
-  text-align: center;
+#content-wrap {
+  padding-bottom: 6rem;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: lightgray;
 }
