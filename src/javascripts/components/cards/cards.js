@@ -6,13 +6,12 @@ import './cards.scss';
 const createProjectCards = () => {
   projectsInfo.getProjectsData()
     .then((projects) => {
-      console.error(projects);
       let domString = '';
       for (let i = 0; i < projects.length; i += 1) {
-        console.error(projects[i].available);
         if (projects[i].available === true) {
-          domString += '<div class="projects col-3">';
+          domString += '<div class="card-group">';
           domString += '<div class="card">';
+          domString += `<img class="card-img-top" ${projects[i].screenshot}>`;
           domString += `<h2>${projects[i].title}</h2>`;
           // domString += `<div id="projectImg">${projects[i].screenshot}</div>`;
           domString += `<p>${projects[i].description}</p>`;

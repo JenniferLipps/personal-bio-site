@@ -2,11 +2,11 @@
     "projects": {
         "project1": {
             "title": "Movies",
-            "screenshot": "<img src=./sampleImg1.jpg></img>",
-            "description": "3 by 5 cards",
+            "screenshot": "<img src=https://user-images.githubusercontent.com/47956811/61581391-63ca2100-aae3-11e9-9cca-570b5821c64b.JPG>",
+            "description": "An app to track information about movies, create collections to watch, and rate watched movies.",
             "technologiesUsed": "CRUD programming, Firebase, ES6",
-            "url": "http://www.google.com",
-            "githubUrl": "https://github.com/JenniferLipps",
+            "url": "https://movies-3ec07.firebaseapp.com/",
+            "githubUrl": "https://github.com/JenniferLipps/movies",
             "available": true
         },
         "project2": {
@@ -14,26 +14,44 @@
             "screenshot": "<img src=https://user-images.githubusercontent.com/47956811/61173655-c22f5680-a55b-11e9-98c4-8b6e99c6b60b.JPG></img>",
             "description": "Allows the owner of a dog day care service to track clients and schedule dog walks.",
             "technologiesUsed": "React, CRUD programming, Firebase, ES6",
-            "url": "doggie-day-care-9502c.firebaseapp.com",
+            "url": "https://doggie-day-care-9502c.firebaseapp.com",
             "githubUrl": "https://github.com/JenniferLipps/doggie-day-care",
             "available": true
         },
         "project3": {
             "title": "Hoarder",
             "screenshot": "<img src=./sampleImg1.jpg></img>",
-            "description": "This app tracks collections ",
+            "description": "This app tracks a collection and allows new items to be added, deleted, or viewed as single items.",
             "technologiesUsed": "Routing, React, CRUD programming, Firebase, ES6",
             "url": "",
             "githubUrl": "https://github.com/JenniferLipps/react-hoarder",
-            "available": true
+            "available": false
         },
         "project4": {
             "title": "Favorite Places",
             "screenshot": "<img src=https://user-images.githubusercontent.com/47956811/56627538-e0944e80-660b-11e9-9fc2-de8968c63f0d.png></img>",
             "description": "An introduction to XHR requests and JSON, this app contains information about favorite features in favorite cities.",
             "technologiesUsed": "JSON data, XHR",
-            "url": "",
+            "url": "https://favorite-places-2a3e4.firebaseapp.com/",
             "githubUrl": "https://github.com/JenniferLipps/favorite-places",
+            "available": true
+        },
+        "project5": {
+            "title": "capstone",
+            "screenshot": "<img></img>",
+            "description": "Game Night allows a group to share their collections of board games and plan gaming meetups.",
+            "technologiesUsed": "Routing, React, CRUD programming, Firebase, ES6",
+            "url": "",
+            "githubUrl": "https://github.com/JenniferLipps/game-night",
+            "available": false
+        },
+        "project6": {
+            "title": "Temperature Converter",
+            "screenshot": "<img src=https://user-images.githubusercontent.com/47956811/54870375-aec16b00-4d73-11e9-9c34-970225b3e0bd.JPG></img>",
+            "description": "A simple app that converts temperatures from Fahrenheit to Celsius and vice versa.",
+            "technologiesUsed": "Vanilla JavaScript",
+            "url": "https://temp-converter-78134.firebaseapp.com/",
+            "githubUrl": "https://github.com/JenniferLipps/temperature-converter",
             "available": true
         }
     }
