@@ -7,6 +7,14 @@ html, body {
 
 body {
   background-color: $background;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bioContent {
+  margin: 2%;
+  padding: 2%;
+  background-color: lightgray;
+  border: 2px solid darkslategray;
 }
 
 .page-container {
